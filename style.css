@@ -74,7 +74,7 @@ header li a {
 }
 .photos {
     display:flex;
-    padding:100px;
+    padding:100px 150px;
     justify-content:space-between;
     
 }
@@ -92,7 +92,7 @@ header li a {
     color:#1F2937;
     font-weight:300;
     text-align:center;
-    padding:50px 100px;
+    padding:50px 150px;
     font-style:italic ;
 }
 p#auteur {
@@ -103,7 +103,8 @@ p#auteur {
 
 .cta {
     background-color: #3882F6;
-    padding: 40px 100px;
+    padding : 30px 50px;
+    margin: 40px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,12 +113,14 @@ p#auteur {
     font-size:20px;
     font-weight: 600;
     color: #F9FAF8;
+    margin:0;
 }
 
 .dern p:nth-child(2) {
     font-size: 18px;
     font-weight: 100;
-    color: #E5E7EB;    
+    color: #E5E7EB;
+    margin:0;   
 }
 
 button {
@@ -129,3 +132,11 @@ button {
    height: fit-content;
 }
 
+footer {
+    background-color: #1F2937;
+    text-align:center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
