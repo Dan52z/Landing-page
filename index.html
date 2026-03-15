@@ -1,23 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page project</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    <header>
-    <p>Hero Logo</p>
-    <ul>
-        <li><a href="#">link one</a></li>
-        <li><a href="#">link two</a></li>
-        <li><a href="#">link three</a></li>
-    </ul>
+        <p>Hero Logo</p>
+        <ul>
+            <li><a href="#">link one</a></li>
+            <li><a href="#">link two</a></li>
+            <li><a href="#">link three</a></li>
+        </ul>
    </header>
-   <div class="part one">
-    <h1>This site is awesome</h1>
-    <p>Ce site présente quelques sélections de photos de mes anciennes mission</p>
-    <im
+   <div class="partone">
+        <div id="gauche">
+            <h1>This site is awesome</h1>
+            <p>Ce site présente quelques sélections de photos de mes anciennes missions</p>
+            <button type="button">Cliquer ici</button>
+        </div>
+        <img src="./double_arc.jpg" alt="image d'un double arc-en ciel" />
    </div>
+   <div class="partie2">
+        <h1>Quelques photos</h1>
+        <div class="photos">
+                <div id="baobabs">
+                    <img src="./baobabs.jpg" alt="photo allée des baobabs" />
+                    <p>Allée des baobabs au levée du jour</p>
+                </div>
+                <div id="piste">
+                    <img src="./Morondava_piste.jpg" alt="piste rurale Morondava" />
+                    <p>vers une zone entourée de forêt sèche à Morondava</p>
+                </div>
+                <div id="maroantsetra">
+                    <img src="./vers_Ambinanitelo.jpg" alt="vers Ambinanitelo sur pirogue" />
+                    <p>paysage autour d'un cours d'eau menant à la commune d'Ambinanitelo</p>
+                </div>
+                <div id="coucher">
+                    <img src="./coucher.jpg" alt="coucher de soleil" />
+                    <p>coucher de soleil au bord de la mer à Mahajanga</p>
+                </div>
+        </div>
+   </div>
+
+   <div class="quote">
+        <p>Ces quelques photos sont issues de mes missions dans Madagascar. Les communes représentées ici, sont
+            Morondava, Mahajanga, Maroantsetra et Ambinanitelo. Pour faire un plus long paragraphe, 
+            on va dire qu'on aurait pu ajouter d'autres photos.</p>
+        <p id="auteur">Dan, it's a nickname</p>
+   </div>
+
+   <div class="cta">
+        <p>call to action, it's time</p>
+        <div class="dern">
+            <p>Si les photos vous ont plu, cliquez sur le bouton "j'aime"</p>
+            <button type="button">J'aime</button>
+        </div>
+   </div>
+   <footer>copyright by Dan</footer>
 </body>
 </html>
